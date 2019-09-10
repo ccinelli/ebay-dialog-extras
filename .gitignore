@@ -1,0 +1,26 @@
+# webstorm internal
+.idea
+
+# build directories
+.coverage
+.test
+*.log
+*.marko.js
+/static
+.cache
+.beans
+.docs
+.gh_pages
+
+# browser-refresh junk
+oom_*
+restarts_*
+.telemetry.json
+# npm debug log
+npm-debug.log
+
+# node modules folder
+node_modules
+/shots/units/screenshots/*.png
+/shots/units/**/failed
+.nyc_output

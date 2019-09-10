@@ -1,0 +1,5 @@
+{
+    "dependencies": [
+        "./lib/ui-modules/ebay-dialog-footer"
+    ]
+}

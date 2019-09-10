@@ -1,0 +1,61 @@
+body {
+    margin: 0 30px;
+    background: #ffffff !important;
+    font-family: "Market Sans","Helvetica Neue", Helvetica,Arial,Roboto,sans-serif
+}
+
+// CSS EXample of how to fix width. Please try to avoid it. Was the design approved by the design system team?
+#w0-the-ebay-dialog-with-footer {
+    .dialog.fixed { // ".fixed" is not currently used in the sample page
+        .dialog__window:not(.dialog__window--full) {
+            max-width: 400px;
+            width: 400px;
+            min-width: 400px;
+        }
+    }
+
+    .btn[no-action-text-wrap] {
+        white-space: nowrap;
+    }
+}
+
+h4 {
+    margin: 22px 0 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h4 + small {
+    display: block;
+    font-weight: normal;
+    font-size: 10px;
+    margin: 2px 0 12px
+}
+
+.mono {
+    font-family: monospace;
+    background-color: #ddd;
+}
+
+.btn.spaced {
+    margin: 0 5px 10px 5px;
+}
+
+
+.ebay-dialog-with-footer {
+    .section-wrapper {
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+
+        section {
+            flex-wrap: wrap;
+            margin: 5px 16px;
+        }
+
+        h4 {
+            font-size: 13px;
+            margin: 2px 0 10px;
+        }
+    }
+}

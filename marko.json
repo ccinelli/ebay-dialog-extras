@@ -1,0 +1,10 @@
+{
+    "tags": {
+        "ebay-dialog-flexible": {
+            "renderer": "./lib/ui-modules/ebay-dialog-flexible/index.js"
+        },
+        "ebay-dialog-footer": {
+            "renderer": "./lib/ui-modules/ebay-dialog-footer/index.js"
+        }
+    }
+}

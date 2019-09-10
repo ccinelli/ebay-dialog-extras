@@ -1,0 +1,8 @@
+{
+    "dependencies": [
+        "require: ./index.js",
+        "./style.less",
+        "@ebay/ebayui-core/ebay-dialog"
+    ]
+}
+

@@ -1,0 +1,9 @@
+{
+    "ignore": [
+        "node_modules/**",
+        "*.json"
+    ],
+    "presets": [
+       "@babel/preset-env"
+    ]
+}

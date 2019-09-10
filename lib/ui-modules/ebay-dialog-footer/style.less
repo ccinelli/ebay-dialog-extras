@@ -1,0 +1,35 @@
+.flexible-dialog .ebay-dialog-footer { 
+  display: flex;
+  flex: 0 0 auto;
+  background-color: #fff;
+  &--actions {
+    padding: 16px;
+  }
+  &--wrapper {
+    width: 100%;
+  }
+
+  .ebay-dialog-flexible--action{
+    flex: 1;
+    margin: 8px;
+  }
+
+  &[has-action-buttons] {
+    .ebay-dialog-footer--wrapper {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .ebay-ebay-dialog-flexible--actions {
+      display: flex;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      padding: 0px;
+    }
+  }
+}
+
+.flexible-dialog .dialog__window--full .ebay-dialog-footer[has-action-buttons] .ebay-ebay-dialog-flexible--actions {
+    flex-direction: column;
+    flex: 1;
+}
