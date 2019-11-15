@@ -1,6 +1,6 @@
 {
     "name": "ebay-dialog-extras",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "Enhanced ebay-dialog components for making your life easier",
     "scripts": {
         "clean": "rm -rf .beans .cache .marko-cli .coverage .nyc_output .test static && find . -name '*.marko.js' -type f -delete",
@@ -23,17 +23,17 @@
         "lasso-marko": ">=2",
         "lasso-less": ">= 2",
         "less": ">= 2",
-        "marko": ">= 3"
+        "marko": ">= 4"
     },
     "devDependencies": {
-        "@babel/core": "^7.3.4",
-        "@babel/polyfill": "^7.2.5",
-        "@babel/preset-env": "^7.3.4",
-        "@ebay/ebayui-core": "4.1.0",
-        "@ebay/skin": "9.1.0",
+        "@babel/core": "^7.7.2",
+        "@babel/polyfill": "^7.7.0",
+        "@babel/preset-env": "^7.7.1",
+        "@ebay/ebayui-core": "4.4.2",
+        "@ebay/skin": "9.4.0",
         "@lasso/marko-taglib": "^1.0.15",
         "browser-refresh-taglib": "1.1.0",
-        "chai": "4.1.2",
+        "chai": "4.2.0",
         "chai-a11y": "^2",
         "chai-as-promised": "^7",
         "chai-jest-snapshot": "2.0.0",
@@ -72,8 +72,8 @@
         "lasso-marko": "^2",
         "less": "^3",
         "lodash.merge": "4.6.2",
-        "marko": "^3",
-        "marko-widgets": "^6.6.6",
+        "marko": "^4",
+        "marko-widgets": "^7",
         "mocha": "^4",
         "serve-static": "^1",
         "sinon": "^7.4.2",

@@ -1,5 +1,7 @@
 <div w-bind>
-    <ebay-dialog open=data.open type=data.type class=[data.class, 'flexible-dialog'] focus=data.focus a11y-close-text=data.a11yCloseText w-on-dialog-show="handleShow" w-on-dialog-close="handleClose" style=data.style>
-        <div class="ebay-dialog-content-wrapper" w-body />
-    </ebay-dialog>
+    <ebay-portal>
+        <ebay-dialog open=data.open type=data.type class=[data.class, 'flexible-dialog'] focus=data.focus a11y-close-text=data.a11yCloseText w-on-dialog-show="handleShow" w-on-dialog-close="handleClose" style=data.style>
+            <div class="ebay-dialog-content-wrapper" w-body />
+        </ebay-dialog>
+    </ebay-portal>
 </div>

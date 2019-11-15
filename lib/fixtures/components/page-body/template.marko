@@ -4,48 +4,72 @@
         <h1>Demo <span class="mono">&lt;ebay-dialog-flexible&gt;</span> - DS${data.flag}</h1>
         The white buttons will open ebayui-core's <span class="mono">&lt;ebay-dialog&gt;</span>. Try to resize the window to see how the differnt dialogs behave.
         <section style="text-align:center;">
-            <p>
-                <h4>Standard <a href="https://github.com/eBay/ebayui-core/tree/master/src/components/ebay-dialog" target="_blank"> eBayUI <span class="mono">&lt;ebay-dialog&gt;</span></a></h4>
-                <small>Not responsive</small>
+            <div class='boxing'>
+                <p>
+                    <h4>Standard <a href="https://github.com/eBay/ebayui-core/tree/master/src/components/ebay-dialog" target="_blank"> eBayUI <span class="mono">&lt;ebay-dialog&gt;</span></a></h4>
+                    <small>Not responsive</small>
 
-                <ebay-button class="spaced" w-on-button-click="openEbayDialogBasic">Always Basic Dialog (plain eBayUI)</ebay-button>
-                <ebay-button class="spaced" w-on-button-click="openEbayDialogBasicFull">Always Full Dialog (plain eBayUI)</ebay-button>
-            </p>
-            <p>
-                <h4>Enhanced <span class="mono">&lt;ebay-dialog-flexible&gt;</span></h4>
-                <small>Notice how it swift to full size on small screens</small>
+                    <ebay-button class="spaced" w-on-button-click="openEbayDialogBasic">Always Basic Dialog (plain eBayUI)</ebay-button>
+                    <ebay-button class="spaced" w-on-button-click="openEbayDialogBasicFull">Always Full Dialog (plain eBayUI)</ebay-button>
+                    <ebay-button class="spaced" w-on-button-click="openEbayDialogBasicBoxed">Dialog is broken in a <span class="mono">overflow: hidden</span> (plain eBayUI)</ebay-button>
+                </p>
+                <!-- ebay-dialog-flexible boxed in overflow:hidden -->
+                <ebay-dialog type="" w-id="the-ebay-dialog-boxed" open=data.modalBasicBoxed focus="my-input" aria-label-close="Close Dialog" aria-labelledby="dialog-title" w-on-dialog-close="handleClose">
+                    <h2>A boxed ebay-dialog (plain eBayUI)</h2>
+                    <ol>
+                        <li>Just an example</li>
+                        <li>Just a second example</li>
+                        <li>Just another example</li>
+                    </ol>
+                </ebay-dialog>
+            </div>
+            <div class='boxing'>
+                <p>
+                    <h4>Enhanced <span class="mono">&lt;ebay-dialog-flexible&gt;</span></h4>
+                    <small>Notice how it swift to full size on small screens</small>
 
-                <ebay-button priority="primary" w-on-button-click="openEbayDialogBasicFullOnMobile">Flexible Dialog</ebay-button>
-            </p>
-            <p>
-                <h4><span class="mono">&lt;ebay-dialog-flexible&gt;</span> with footer with Action Buttons</h4>
-                <small>Notice the <span class="mono">&lt;ebay-dialog-footer has-action-buttons&gt;</span></small>
+                    <ebay-button class="spaced" priority="primary" w-on-button-click="openEbayDialogBasicFullOnMobile">Flexible Dialog</ebay-button>
+                    <ebay-button class="spaced" priority="primary" w-on-button-click="openEbayDialogFlexibleBoxed">Flexible Dialog Boxed in <span class="mono">overflow:hidden</span></ebay-button>
+                </p>
+                <p>
+                    <h4><span class="mono">&lt;ebay-dialog-flexible&gt;</span> with footer with Action Buttons</h4>
+                    <small>Notice the <span class="mono">&lt;ebay-dialog-footer has-action-buttons&gt;</span></small>
 
-                <ebay-button priority="primary" class="spaced" w-on-button-click="openEbayDialogWithFooter">Flexible Dialog with Action Buttons in Footer</ebay-button>
-                <ebay-button priority="primary" class="spaced" w-on-button-click="openEbayDialogWithFooterLong">Flexible Dialog with Footer and long text</ebay-button>
-            </p>
+                    <ebay-button priority="primary" class="spaced" w-on-button-click="openEbayDialogWithFooter">Flexible Dialog with Action Buttons in Footer</ebay-button>
+                    <ebay-button priority="primary" class="spaced" w-on-button-click="openEbayDialogWithFooterLong">Flexible Dialog with Footer and long text</ebay-button>
+                </p>
+                <ebay-dialog-flexible type="" w-id="the-ebay-dialog-boxed" open=data.modalFlexibleBoxed focus="my-input" aria-label-close="Close Dialog" aria-labelledby="dialog-title" w-on-dialog-close="handleClose">
+                    <h2>A boxed ebay-dialog-flexible</h2>
+                    <ol>
+                        <li>Notice the different style of the numbers. This is because the dialog is outside of the current element and "excape" the <span class="mono">&lt;section&gt;</span>'s CSS</li>
+                        <li>Just an example</li>
+                        <li>Just a second example</li>
+                        <li>Just another example</li>
+                    </ol>
+                </ebay-dialog-flexible>
+            </div>
         </section>
         <hr/>
         Do you need <b>DS<u>${otherVersion}</u></b>? <a href='/?style=${otherVersion}'>See it here</a>
     </div>
 
     <!-- ebay-dialog-flexible with `type=""` -->
-    <ebay-dialog-flexible type="" w-id="the-ebay-dialog" open=data.modalBasic focus="my-input" aria-label-close="Close Dialog" aria-labelledby="dialog-title" w-on-dialog-close="handleClose">
+    <ebay-dialog type="" w-id="the-ebay-dialog" open=data.modalBasic focus="my-input" aria-label-close="Close Dialog" aria-labelledby="dialog-title" w-on-dialog-close="handleClose">
         <h2>Header for standard ebay-dialog</h2>
         <p>This is some text I wanted to put in the dialog. An this is value that I would like to get from you. So there is focus on it:</p>
         <form>
             <input id="my-input" placeholder="Enter a value"/>
         </form>
         <p>This is just a link to our site, <a href="http://www.ebay.com">www.ebay.com</a></p>
-    </ebay-dialog-flexible>
+    </ebay-dialog>
 
     <!-- ebay-dialog-flexible with `type="full"` -->
-    <ebay-dialog-flexible type="full" w-id="the-ebay-dialog-full" open=data.modalFull focus="my-input-2" aria-label-close="Close Dialog" aria-labelledby="dialog-title" w-on-dialog-close="handleClose">
+    <ebay-dialog> type="full" w-id="the-ebay-dialog-full" open=data.modalFull focus="my-input-2" aria-label-close="Close Dialog" aria-labelledby="dialog-title" w-on-dialog-close="handleClose">
         <h2>Header for standard full ebay-dialog</h2>
         <p>This is some text I wanted to put in the dialog. An this is value that I would like to gt from you:</p>
         <input id="my-input-2" placeholder="Enter a value"/>
         <p>This is just a link to our site, <a href="http://www.ebay.com">www.ebay.com</a></p>
-    </ebay-dialog-flexible>
+    </ebay-dialog>
 
     <!-- ebay-dialog-flexible with not `type` or `type="flexible"` -->
     <ebay-dialog-flexible w-id="the-ebay-dialog-full-mobile" open=data.modalFullOnMobile focus="my-input-3" aria-label-close="Close Dialog" aria-labelledby="dialog-title" w-on-dialog-close="handleClose">

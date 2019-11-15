@@ -1,12 +1,16 @@
-# `dialog-flexible` and `dialog-footer`
+# `ebay-dialog-flexible`, `ebay-dialog-footer` and `ebay-portal`
+
+### Note 
+
+`v2.0.0` and above require MarkoJs `v4` or above. For a version compatible with MarkoJs `v3` use `v1.0.0`.
 
 ## Intro
 
 You usually want to have a smaller dialog on a larger screen and a full screen dialog on mobile. That would be easily done in CSS but unfortunately skin does not have that class. 
 
-`dialog-flexible` wraps a eBayUI dialog so it can be responsively change between desktop and mobile without overriding CSS or other practices that violates the separation of concerns (SoC) principle.
+`ebay-dialog-flexible` wraps a eBayUI dialog so it can be responsively change between desktop and mobile without overriding CSS or other practices that violates the separation of concerns (SoC) principle.
 
-`dialog-footer` create a footer where the buttons dynamically adapt in mobile or desktop view.
+`ebay-dialog-footer` create a footer where the buttons dynamically adapt in mobile or desktop view.
 
 
 ### Responsibility 
@@ -32,6 +36,7 @@ For more detail check:
 
  - [ebay-dialog-flexible](./lib/ui-modules/ebay-dialog-flexible/README.md)
  - [ebay-dialog-footer](./lib/ui-modules/ebay-dialog-footer/README.md)
+ - [ebay-portal](./lib/ui-modules/ebay-portal/README.md)
 
 
 ## Notes

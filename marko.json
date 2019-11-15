@@ -5,6 +5,12 @@
         },
         "ebay-dialog-footer": {
             "renderer": "./lib/ui-modules/ebay-dialog-footer/index.js"
-        }
+        },
+        "ebay-portal": {
+            "template": "./lib/ui-modules/ebay-portal/index.marko",
+            "attributes": {
+              "target": "expression"
+            }
+          }
     }
 }
