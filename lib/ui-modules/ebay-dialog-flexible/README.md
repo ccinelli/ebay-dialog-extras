@@ -14,6 +14,8 @@ Name | Type | Stateful | Description
 `focus` | String | No | An id for an element which will receive focus when the dialog opens (defaults to close button).
 `a11y-close-text` | String | No | A11y text for close button and mask.
 `focus-if-visible` | String | No | focus on the element if it is in the viewport on open (ex: '#my-ok-button')
+`dont-use-portal` | String | Yes | do not use portal and keep the dialog in the current place)
+`portal-target` | String | Yes | Target where to attach the modal - default `<body>`)
 `full-max-width` | String | No | Default "600px" breaking point when the dialog become full screen. You should not have to touch this unless you want full screen on tablet. Then you want 768px. It accept a full media query. Useful in case you need something custom (Because maybe you did some naughty like fixing the `dialog__window`. See the **note below** and [the window.matchMedia documentation](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia).  
 
 ## Events

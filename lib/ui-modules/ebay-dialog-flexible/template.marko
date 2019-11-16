@@ -1,7 +1,16 @@
+<macro name="actual-dialog">
+    <ebay-dialog open=data.open type=data.type class=[data.class, 'flexible-dialog'] focus=data.focus a11y-close-text=data.a11yCloseText w-on-dialog-show="handleShow" w-on-dialog-close="handleClose" style=data.style>
+        <div class="ebay-dialog-content-wrapper" w-body />
+    </ebay-dialog>
+</macro>
+
 <div w-bind>
-    <ebay-portal>
-        <ebay-dialog open=data.open type=data.type class=[data.class, 'flexible-dialog'] focus=data.focus a11y-close-text=data.a11yCloseText w-on-dialog-show="handleShow" w-on-dialog-close="handleClose" style=data.style>
-            <div class="ebay-dialog-content-wrapper" w-body />
-        </ebay-dialog>
-    </ebay-portal>
+    <if (data.dontUsePortal)>
+        <actual-dialog/>
+    </if>
+    <else>
+        <ebay-portal target=data.portalTarget>
+            <actual-dialog/>
+        </ebay-portal>
+    </else>
 </div>
