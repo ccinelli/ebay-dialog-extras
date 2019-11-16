@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ebay-dialog-footer renders basic version 1`] = `
+"<!--M#s0-->
+<div class=\\"flexible-dialog ebay-dialog-footer\\" id=\\"s0\\">
+  <div class=\\"ebay-dialog-footer--wrapper\\">
+    <div class=\\"ebay-ebay-dialog-flexible--actions\\"></div>
+  </div>
+</div>
+<!--M/-->"
+`;

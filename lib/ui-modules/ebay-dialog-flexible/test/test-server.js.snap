@@ -1,162 +1,206 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`dialog renders basic version 1`] = `
-"<div id=\\"w0\\" data-w-body=\\"0\\">
-  <div class=\\"bolt-dialog dialog dialog--mask-fade\\" hidden role=\\"dialog\\" id=\\"w0-thewidget\\" data-w-preserve-attrs=\\"hidden\\" data-w-onclick=\\"handleDialogClick|w0-thewidget\\" data-w-preserve-attrs=\\"hidden\\" data-w-events=\\"w0,dialog-show,handleShow,dialog-close,handleClose\\"
-    data-w-body=\\"body\\">
-    <div class=\\"dialog__window dialog__window--fade\\" role=\\"document\\" id=\\"w0-thewidget-window\\">
-      <button class=\\"dialog__close\\" type=\\"button\\" id=\\"w0-thewidget-close\\" data-w-onclick=\\"handleCloseButtonClick|w0-thewidget\\">
-        <svg class=\\"icon icon--close\\" focusable=\\"false\\" id=\\"w0-thewidget-w0\\" aria-hidden=\\"true\\">
-          <defs id=\\"w0-thewidget-w0-defs\\">
-            <symbol id=\\"icon-close\\" viewBox=\\"1.5 1.5 21 21\\">
-              <path d=\\"M22.182 3.856c.522-.554.306-1.394-.234-1.938-.54-.543-1.433-.523-1.826-.135C19.73 2.17 11.955 10 11.955 10S4.225 2.154 3.79 1.783c-.438-.371-1.277-.4-1.81.135-.533.537-.628 1.513-.25 1.938.377.424 8.166 8.218 8.166 8.218s-7.85 7.864-8.166 8.219c-.317.354-.34 1.335.25 1.805.59.47 1.24.455 1.81 0 .568-.456 8.166-7.951 8.166-7.951l8.167 7.86c.747.72 1.504.563 1.96.09.456-.471.609-1.268.1-1.804-.508-.537-8.167-8.219-8.167-8.219s7.645-7.665 8.167-8.218z\\"></path>
+exports[`ebay-dialog-flexible renders basic version 1`] = `
+"<!--M#s0-->
+<div id=\\"s0\\">
+  <!--F#4-->
+  <div class=\\"dialog flexible-dialog dialog--mask-fade\\" role=\\"dialog\\" data-ebayui id=\\"s0-4-0\\" hidden>
+    <div role=\\"document\\" class=\\"dialog__window dialog__window--fade\\" id=\\"s0-4-0-window\\">
+      <button class=\\"dialog__close\\" type=\\"button\\" id=\\"s0-4-0-close\\">
+        <svg aria-hidden=\\"true\\" class=\\"icon icon--close\\" xmlns=\\"http://www.w3.org/2000/svg\\" focusable=\\"false\\" id=\\"s0-4-0-0\\">
+          <defs id=\\"s0-4-0-0-defs\\">
+            <symbol id=\\"icon-close\\" viewBox=\\"0 0 24 24\\">
+              <path d=\\"M23.205 1.79L21.415 0l-9.813 9.812L1.79 0 0 1.79l9.812 9.812L0 21.415l1.79 1.789 9.812-9.811 9.813 9.811 1.79-1.789-9.813-9.813z\\"></path>
             </symbol>
           </defs>
           <use xlink:href=\\"#icon-close\\"></use>
         </svg>
       </button>
-      <div class=\\"dialog__body\\" id=\\"w0-thewidget-body\\">
-        <div class=\\"ebay-dialog-content-wrapper\\" id=\\"w0-0\\"></div>
+      <div class=\\"dialog__body\\" id=\\"s0-4-0-body\\">
+        <!--F#1-->
+        <div class=\\"ebay-dialog-content-wrapper\\"></div>
+        <!--F/-->
       </div>
     </div>
   </div>
-</div>"
+  <!--F/-->
+</div>
+<!--M/-->"
 `;
 
-exports[`dialog renders in open state 1`] = `
-"<div id=\\"w0\\" data-w-body=\\"0\\">
-  <div class=\\"bolt-dialog dialog dialog--mask-fade\\" role=\\"dialog\\" id=\\"w0-thewidget\\" data-w-preserve-attrs=\\"hidden\\" data-w-onclick=\\"handleDialogClick|w0-thewidget\\" data-w-preserve-attrs=\\"hidden\\" data-w-events=\\"w0,dialog-show,handleShow,dialog-close,handleClose\\"
-    data-w-body=\\"body\\">
-    <div class=\\"dialog__window dialog__window--fade\\" role=\\"document\\" id=\\"w0-thewidget-window\\">
-      <button class=\\"dialog__close\\" type=\\"button\\" id=\\"w0-thewidget-close\\" data-w-onclick=\\"handleCloseButtonClick|w0-thewidget\\">
-        <svg class=\\"icon icon--close\\" focusable=\\"false\\" id=\\"w0-thewidget-w0\\" aria-hidden=\\"true\\">
-          <defs id=\\"w0-thewidget-w0-defs\\">
-            <symbol id=\\"icon-close\\" viewBox=\\"1.5 1.5 21 21\\">
-              <path d=\\"M22.182 3.856c.522-.554.306-1.394-.234-1.938-.54-.543-1.433-.523-1.826-.135C19.73 2.17 11.955 10 11.955 10S4.225 2.154 3.79 1.783c-.438-.371-1.277-.4-1.81.135-.533.537-.628 1.513-.25 1.938.377.424 8.166 8.218 8.166 8.218s-7.85 7.864-8.166 8.219c-.317.354-.34 1.335.25 1.805.59.47 1.24.455 1.81 0 .568-.456 8.166-7.951 8.166-7.951l8.167 7.86c.747.72 1.504.563 1.96.09.456-.471.609-1.268.1-1.804-.508-.537-8.167-8.219-8.167-8.219s7.645-7.665 8.167-8.218z\\"></path>
+exports[`ebay-dialog-flexible renders in open state 1`] = `
+"<!--M#s0-->
+<div id=\\"s0\\">
+  <!--F#4-->
+  <div class=\\"dialog flexible-dialog dialog--mask-fade\\" role=\\"dialog\\" data-ebayui id=\\"s0-4-0\\">
+    <div role=\\"document\\" class=\\"dialog__window dialog__window--fade\\" id=\\"s0-4-0-window\\">
+      <button class=\\"dialog__close\\" type=\\"button\\" id=\\"s0-4-0-close\\">
+        <svg aria-hidden=\\"true\\" class=\\"icon icon--close\\" xmlns=\\"http://www.w3.org/2000/svg\\" focusable=\\"false\\" id=\\"s0-4-0-0\\">
+          <defs id=\\"s0-4-0-0-defs\\">
+            <symbol id=\\"icon-close\\" viewBox=\\"0 0 24 24\\">
+              <path d=\\"M23.205 1.79L21.415 0l-9.813 9.812L1.79 0 0 1.79l9.812 9.812L0 21.415l1.79 1.789 9.812-9.811 9.813 9.811 1.79-1.789-9.813-9.813z\\"></path>
             </symbol>
           </defs>
           <use xlink:href=\\"#icon-close\\"></use>
         </svg>
       </button>
-      <div class=\\"dialog__body\\" id=\\"w0-thewidget-body\\">
-        <div class=\\"ebay-dialog-content-wrapper\\" id=\\"w0-0\\"></div>
+      <div class=\\"dialog__body\\" id=\\"s0-4-0-body\\">
+        <!--F#1-->
+        <div class=\\"ebay-dialog-content-wrapper\\"></div>
+        <!--F/-->
       </div>
     </div>
   </div>
-</div>"
+  <!--F/-->
+</div>
+<!--M/-->"
 `;
 
-exports[`dialog renders with a renderBody 1`] = `
-"<div id=\\"w0\\" data-w-body=\\"0\\">
-  <div class=\\"bolt-dialog dialog dialog--mask-fade\\" hidden role=\\"dialog\\" id=\\"w0-thewidget\\" data-w-preserve-attrs=\\"hidden\\" data-w-onclick=\\"handleDialogClick|w0-thewidget\\" data-w-preserve-attrs=\\"hidden\\" data-w-events=\\"w0,dialog-show,handleShow,dialog-close,handleClose\\"
-    data-w-body=\\"body\\">
-    <div class=\\"dialog__window dialog__window--fade\\" role=\\"document\\" id=\\"w0-thewidget-window\\">
-      <button class=\\"dialog__close\\" type=\\"button\\" id=\\"w0-thewidget-close\\" data-w-onclick=\\"handleCloseButtonClick|w0-thewidget\\">
-        <svg class=\\"icon icon--close\\" focusable=\\"false\\" id=\\"w0-thewidget-w0\\" aria-hidden=\\"true\\">
-          <defs id=\\"w0-thewidget-w0-defs\\">
-            <symbol id=\\"icon-close\\" viewBox=\\"1.5 1.5 21 21\\">
-              <path d=\\"M22.182 3.856c.522-.554.306-1.394-.234-1.938-.54-.543-1.433-.523-1.826-.135C19.73 2.17 11.955 10 11.955 10S4.225 2.154 3.79 1.783c-.438-.371-1.277-.4-1.81.135-.533.537-.628 1.513-.25 1.938.377.424 8.166 8.218 8.166 8.218s-7.85 7.864-8.166 8.219c-.317.354-.34 1.335.25 1.805.59.47 1.24.455 1.81 0 .568-.456 8.166-7.951 8.166-7.951l8.167 7.86c.747.72 1.504.563 1.96.09.456-.471.609-1.268.1-1.804-.508-.537-8.167-8.219-8.167-8.219s7.645-7.665 8.167-8.218z\\"></path>
+exports[`ebay-dialog-flexible renders with a renderBody 1`] = `
+"<!--M#s0-->
+<div id=\\"s0\\">
+  <!--F#4-->
+  <div class=\\"dialog flexible-dialog dialog--mask-fade\\" role=\\"dialog\\" data-ebayui id=\\"s0-4-0\\" hidden>
+    <div role=\\"document\\" class=\\"dialog__window dialog__window--fade\\" id=\\"s0-4-0-window\\">
+      <button class=\\"dialog__close\\" type=\\"button\\" id=\\"s0-4-0-close\\">
+        <svg aria-hidden=\\"true\\" class=\\"icon icon--close\\" xmlns=\\"http://www.w3.org/2000/svg\\" focusable=\\"false\\" id=\\"s0-4-0-0\\">
+          <defs id=\\"s0-4-0-0-defs\\">
+            <symbol id=\\"icon-close\\" viewBox=\\"0 0 24 24\\">
+              <path d=\\"M23.205 1.79L21.415 0l-9.813 9.812L1.79 0 0 1.79l9.812 9.812L0 21.415l1.79 1.789 9.812-9.811 9.813 9.811 1.79-1.789-9.813-9.813z\\"></path>
             </symbol>
           </defs>
           <use xlink:href=\\"#icon-close\\"></use>
         </svg>
       </button>
-      <div class=\\"dialog__body\\" id=\\"w0-thewidget-body\\">
-        <div class=\\"ebay-dialog-content-wrapper\\" id=\\"w0-0\\">Hello World</div>
+      <div class=\\"dialog__body\\" id=\\"s0-4-0-body\\">
+        <!--F#1-->
+        <div class=\\"ebay-dialog-content-wrapper\\">
+          <!--F#2-->Hello World
+          <!--F/-->
+        </div>
+        <!--F/-->
       </div>
     </div>
   </div>
-</div>"
+  <!--F/-->
+</div>
+<!--M/-->"
 `;
 
-exports[`dialog renders with a11y close text 1`] = `
-"<div id=\\"w0\\" data-w-body=\\"0\\">
-  <div class=\\"bolt-dialog dialog dialog--mask-fade\\" hidden role=\\"dialog\\" id=\\"w0-thewidget\\" data-w-preserve-attrs=\\"hidden\\" data-w-onclick=\\"handleDialogClick|w0-thewidget\\" data-w-preserve-attrs=\\"hidden\\" data-w-events=\\"w0,dialog-show,handleShow,dialog-close,handleClose\\"
-    data-w-body=\\"body\\">
-    <div class=\\"dialog__window dialog__window--fade\\" role=\\"document\\" id=\\"w0-thewidget-window\\">
-      <button class=\\"dialog__close\\" type=\\"button\\" aria-label=\\"Close Dialog\\" id=\\"w0-thewidget-close\\" data-w-onclick=\\"handleCloseButtonClick|w0-thewidget\\">
-        <svg class=\\"icon icon--close\\" focusable=\\"false\\" id=\\"w0-thewidget-w0\\" aria-hidden=\\"true\\">
-          <defs id=\\"w0-thewidget-w0-defs\\">
-            <symbol id=\\"icon-close\\" viewBox=\\"1.5 1.5 21 21\\">
-              <path d=\\"M22.182 3.856c.522-.554.306-1.394-.234-1.938-.54-.543-1.433-.523-1.826-.135C19.73 2.17 11.955 10 11.955 10S4.225 2.154 3.79 1.783c-.438-.371-1.277-.4-1.81.135-.533.537-.628 1.513-.25 1.938.377.424 8.166 8.218 8.166 8.218s-7.85 7.864-8.166 8.219c-.317.354-.34 1.335.25 1.805.59.47 1.24.455 1.81 0 .568-.456 8.166-7.951 8.166-7.951l8.167 7.86c.747.72 1.504.563 1.96.09.456-.471.609-1.268.1-1.804-.508-.537-8.167-8.219-8.167-8.219s7.645-7.665 8.167-8.218z\\"></path>
+exports[`ebay-dialog-flexible renders with a11y close text 1`] = `
+"<!--M#s0-->
+<div id=\\"s0\\">
+  <!--F#4-->
+  <div class=\\"dialog flexible-dialog dialog--mask-fade\\" role=\\"dialog\\" data-ebayui id=\\"s0-4-0\\" hidden>
+    <div role=\\"document\\" class=\\"dialog__window dialog__window--fade\\" id=\\"s0-4-0-window\\">
+      <button class=\\"dialog__close\\" type=\\"button\\" aria-label=\\"Close Dialog\\" id=\\"s0-4-0-close\\">
+        <svg aria-hidden=\\"true\\" class=\\"icon icon--close\\" xmlns=\\"http://www.w3.org/2000/svg\\" focusable=\\"false\\" id=\\"s0-4-0-0\\">
+          <defs id=\\"s0-4-0-0-defs\\">
+            <symbol id=\\"icon-close\\" viewBox=\\"0 0 24 24\\">
+              <path d=\\"M23.205 1.79L21.415 0l-9.813 9.812L1.79 0 0 1.79l9.812 9.812L0 21.415l1.79 1.789 9.812-9.811 9.813 9.811 1.79-1.789-9.813-9.813z\\"></path>
             </symbol>
           </defs>
           <use xlink:href=\\"#icon-close\\"></use>
         </svg>
       </button>
-      <div class=\\"dialog__body\\" id=\\"w0-thewidget-body\\">
-        <div class=\\"ebay-dialog-content-wrapper\\" id=\\"w0-0\\"></div>
+      <div class=\\"dialog__body\\" id=\\"s0-4-0-body\\">
+        <!--F#1-->
+        <div class=\\"ebay-dialog-content-wrapper\\"></div>
+        <!--F/-->
       </div>
     </div>
   </div>
-</div>"
+  <!--F/-->
+</div>
+<!--M/-->"
 `;
 
-exports[`dialog renders with default type 1`] = `
-"<div id=\\"w0\\" data-w-body=\\"0\\">
-  <div class=\\"bolt-dialog dialog dialog--mask-fade\\" hidden role=\\"dialog\\" id=\\"w0-thewidget\\" data-w-preserve-attrs=\\"hidden\\" data-w-onclick=\\"handleDialogClick|w0-thewidget\\" data-w-preserve-attrs=\\"hidden\\" data-w-events=\\"w0,dialog-show,handleShow,dialog-close,handleClose\\"
-    data-w-body=\\"body\\">
-    <div class=\\"dialog__window dialog__window--fade\\" role=\\"document\\" id=\\"w0-thewidget-window\\">
-      <button class=\\"dialog__close\\" type=\\"button\\" id=\\"w0-thewidget-close\\" data-w-onclick=\\"handleCloseButtonClick|w0-thewidget\\">
-        <svg class=\\"icon icon--close\\" focusable=\\"false\\" id=\\"w0-thewidget-w0\\" aria-hidden=\\"true\\">
-          <defs id=\\"w0-thewidget-w0-defs\\">
-            <symbol id=\\"icon-close\\" viewBox=\\"1.5 1.5 21 21\\">
-              <path d=\\"M22.182 3.856c.522-.554.306-1.394-.234-1.938-.54-.543-1.433-.523-1.826-.135C19.73 2.17 11.955 10 11.955 10S4.225 2.154 3.79 1.783c-.438-.371-1.277-.4-1.81.135-.533.537-.628 1.513-.25 1.938.377.424 8.166 8.218 8.166 8.218s-7.85 7.864-8.166 8.219c-.317.354-.34 1.335.25 1.805.59.47 1.24.455 1.81 0 .568-.456 8.166-7.951 8.166-7.951l8.167 7.86c.747.72 1.504.563 1.96.09.456-.471.609-1.268.1-1.804-.508-.537-8.167-8.219-8.167-8.219s7.645-7.665 8.167-8.218z\\"></path>
+exports[`ebay-dialog-flexible renders with default type 1`] = `
+"<!--M#s0-->
+<div id=\\"s0\\">
+  <!--F#4-->
+  <div class=\\"dialog flexible-dialog dialog--mask-fade\\" role=\\"dialog\\" data-ebayui id=\\"s0-4-0\\" hidden>
+    <div role=\\"document\\" class=\\"dialog__window dialog__window--fade\\" id=\\"s0-4-0-window\\">
+      <button class=\\"dialog__close\\" type=\\"button\\" id=\\"s0-4-0-close\\">
+        <svg aria-hidden=\\"true\\" class=\\"icon icon--close\\" xmlns=\\"http://www.w3.org/2000/svg\\" focusable=\\"false\\" id=\\"s0-4-0-0\\">
+          <defs id=\\"s0-4-0-0-defs\\">
+            <symbol id=\\"icon-close\\" viewBox=\\"0 0 24 24\\">
+              <path d=\\"M23.205 1.79L21.415 0l-9.813 9.812L1.79 0 0 1.79l9.812 9.812L0 21.415l1.79 1.789 9.812-9.811 9.813 9.811 1.79-1.789-9.813-9.813z\\"></path>
             </symbol>
           </defs>
           <use xlink:href=\\"#icon-close\\"></use>
         </svg>
       </button>
-      <div class=\\"dialog__body\\" id=\\"w0-thewidget-body\\">
-        <div class=\\"ebay-dialog-content-wrapper\\" id=\\"w0-0\\"></div>
+      <div class=\\"dialog__body\\" id=\\"s0-4-0-body\\">
+        <!--F#1-->
+        <div class=\\"ebay-dialog-content-wrapper\\"></div>
+        <!--F/-->
       </div>
     </div>
   </div>
-</div>"
+  <!--F/-->
+</div>
+<!--M/-->"
 `;
 
-exports[`dialog renders with flexible type 1`] = `
-"<div id=\\"w0\\" data-w-body=\\"0\\">
-  <div class=\\"bolt-dialog dialog dialog--mask-fade\\" hidden role=\\"dialog\\" id=\\"w0-thewidget\\" data-w-preserve-attrs=\\"hidden\\" data-w-onclick=\\"handleDialogClick|w0-thewidget\\" data-w-preserve-attrs=\\"hidden\\" data-w-events=\\"w0,dialog-show,handleShow,dialog-close,handleClose\\"
-    data-w-body=\\"body\\">
-    <div class=\\"dialog__window dialog__window--fade\\" role=\\"document\\" id=\\"w0-thewidget-window\\">
-      <button class=\\"dialog__close\\" type=\\"button\\" id=\\"w0-thewidget-close\\" data-w-onclick=\\"handleCloseButtonClick|w0-thewidget\\">
-        <svg class=\\"icon icon--close\\" focusable=\\"false\\" id=\\"w0-thewidget-w0\\" aria-hidden=\\"true\\">
-          <defs id=\\"w0-thewidget-w0-defs\\">
-            <symbol id=\\"icon-close\\" viewBox=\\"1.5 1.5 21 21\\">
-              <path d=\\"M22.182 3.856c.522-.554.306-1.394-.234-1.938-.54-.543-1.433-.523-1.826-.135C19.73 2.17 11.955 10 11.955 10S4.225 2.154 3.79 1.783c-.438-.371-1.277-.4-1.81.135-.533.537-.628 1.513-.25 1.938.377.424 8.166 8.218 8.166 8.218s-7.85 7.864-8.166 8.219c-.317.354-.34 1.335.25 1.805.59.47 1.24.455 1.81 0 .568-.456 8.166-7.951 8.166-7.951l8.167 7.86c.747.72 1.504.563 1.96.09.456-.471.609-1.268.1-1.804-.508-.537-8.167-8.219-8.167-8.219s7.645-7.665 8.167-8.218z\\"></path>
+exports[`ebay-dialog-flexible renders with flexible type 1`] = `
+"<!--M#s0-->
+<div id=\\"s0\\">
+  <!--F#4-->
+  <div class=\\"dialog flexible-dialog dialog--mask-fade\\" role=\\"dialog\\" data-ebayui id=\\"s0-4-0\\" hidden>
+    <div role=\\"document\\" class=\\"dialog__window dialog__window--fade\\" id=\\"s0-4-0-window\\">
+      <button class=\\"dialog__close\\" type=\\"button\\" id=\\"s0-4-0-close\\">
+        <svg aria-hidden=\\"true\\" class=\\"icon icon--close\\" xmlns=\\"http://www.w3.org/2000/svg\\" focusable=\\"false\\" id=\\"s0-4-0-0\\">
+          <defs id=\\"s0-4-0-0-defs\\">
+            <symbol id=\\"icon-close\\" viewBox=\\"0 0 24 24\\">
+              <path d=\\"M23.205 1.79L21.415 0l-9.813 9.812L1.79 0 0 1.79l9.812 9.812L0 21.415l1.79 1.789 9.812-9.811 9.813 9.811 1.79-1.789-9.813-9.813z\\"></path>
             </symbol>
           </defs>
           <use xlink:href=\\"#icon-close\\"></use>
         </svg>
       </button>
-      <div class=\\"dialog__body\\" id=\\"w0-thewidget-body\\">
-        <div class=\\"ebay-dialog-content-wrapper\\" id=\\"w0-0\\"></div>
+      <div class=\\"dialog__body\\" id=\\"s0-4-0-body\\">
+        <!--F#1-->
+        <div class=\\"ebay-dialog-content-wrapper\\"></div>
+        <!--F/-->
       </div>
     </div>
   </div>
-</div>"
+  <!--F/-->
+</div>
+<!--M/-->"
 `;
 
-exports[`dialog renders with full type 1`] = `
-"<div id=\\"w0\\" data-w-body=\\"0\\">
-  <div class=\\"bolt-dialog dialog dialog--no-mask\\" hidden role=\\"dialog\\" id=\\"w0-thewidget\\" data-w-preserve-attrs=\\"hidden\\" data-w-onclick=\\"handleDialogClick|w0-thewidget\\" data-w-preserve-attrs=\\"hidden\\" data-w-events=\\"w0,dialog-show,handleShow,dialog-close,handleClose\\"
-    data-w-body=\\"body\\">
-    <div class=\\"dialog__window dialog__window--full dialog__window--fade\\" role=\\"document\\" id=\\"w0-thewidget-window\\">
-      <button class=\\"dialog__close\\" type=\\"button\\" id=\\"w0-thewidget-close\\" data-w-onclick=\\"handleCloseButtonClick|w0-thewidget\\">
-        <svg class=\\"icon icon--close\\" focusable=\\"false\\" id=\\"w0-thewidget-w0\\" aria-hidden=\\"true\\">
-          <defs id=\\"w0-thewidget-w0-defs\\">
-            <symbol id=\\"icon-close\\" viewBox=\\"1.5 1.5 21 21\\">
-              <path d=\\"M22.182 3.856c.522-.554.306-1.394-.234-1.938-.54-.543-1.433-.523-1.826-.135C19.73 2.17 11.955 10 11.955 10S4.225 2.154 3.79 1.783c-.438-.371-1.277-.4-1.81.135-.533.537-.628 1.513-.25 1.938.377.424 8.166 8.218 8.166 8.218s-7.85 7.864-8.166 8.219c-.317.354-.34 1.335.25 1.805.59.47 1.24.455 1.81 0 .568-.456 8.166-7.951 8.166-7.951l8.167 7.86c.747.72 1.504.563 1.96.09.456-.471.609-1.268.1-1.804-.508-.537-8.167-8.219-8.167-8.219s7.645-7.665 8.167-8.218z\\"></path>
+exports[`ebay-dialog-flexible renders with full type 1`] = `
+"<!--M#s0-->
+<div id=\\"s0\\">
+  <!--F#4-->
+  <div class=\\"dialog flexible-dialog dialog--no-mask\\" role=\\"dialog\\" data-ebayui id=\\"s0-4-0\\" hidden>
+    <div role=\\"document\\" class=\\"dialog__window dialog__window--full dialog__window--fade\\" id=\\"s0-4-0-window\\">
+      <button class=\\"dialog__close\\" type=\\"button\\" id=\\"s0-4-0-close\\">
+        <svg aria-hidden=\\"true\\" class=\\"icon icon--close\\" xmlns=\\"http://www.w3.org/2000/svg\\" focusable=\\"false\\" id=\\"s0-4-0-0\\">
+          <defs id=\\"s0-4-0-0-defs\\">
+            <symbol id=\\"icon-close\\" viewBox=\\"0 0 24 24\\">
+              <path d=\\"M23.205 1.79L21.415 0l-9.813 9.812L1.79 0 0 1.79l9.812 9.812L0 21.415l1.79 1.789 9.812-9.811 9.813 9.811 1.79-1.789-9.813-9.813z\\"></path>
             </symbol>
           </defs>
           <use xlink:href=\\"#icon-close\\"></use>
         </svg>
       </button>
-      <div class=\\"dialog__body\\" id=\\"w0-thewidget-body\\">
-        <div class=\\"ebay-dialog-content-wrapper\\" id=\\"w0-0\\"></div>
+      <div class=\\"dialog__body\\" id=\\"s0-4-0-body\\">
+        <!--F#1-->
+        <div class=\\"ebay-dialog-content-wrapper\\"></div>
+        <!--F/-->
       </div>
     </div>
   </div>
-</div>"
+  <!--F/-->
+</div>
+<!--M/-->"
+`;
+
+exports[`ebay-dialog-flexible renders with portal 1`] = `
+"<!--M#s0-->
+<div id=\\"s0\\"><span style=\\"display:none;\\"></span></div>
+<!--M/-->"
 `;

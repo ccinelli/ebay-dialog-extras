@@ -5,8 +5,8 @@
     "scripts": {
         "clean": "rm -rf .beans .cache .marko-cli .coverage .nyc_output .test static && find . -name '*.marko.js' -type f -delete",
         "start": "node index.js",
-        "test-server": "grunt mochaTest:test",
-        "fix-snapshots": "CHAI_JEST_SNAPSHOT_UPDATE_ALL=true grunt mochaTest:test"
+        "test-server": "./node_modules/.bin/mocha --reporter spec lib/**/test/**/test-server.js",
+        "fix-snapshots": "CHAI_JEST_SNAPSHOT_UPDATE_ALL=true npm run test-server"
     },
     "browser": {
         "./test.js": "./lib/helpers/client/test-utils.js"
