@@ -53,7 +53,7 @@
         "grunt-mocha-test": "^0",
         "js-beautify": "1.7.5",
         "jsdom": "^11",
-        "karma": "^1",
+        "karma": "^6",
         "karma-chai": "^0",
         "karma-chrome-launcher": "^2",
         "karma-firefox-launcher": "^1",
