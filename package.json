@@ -52,7 +52,7 @@
         "grunt-karma": "^2",
         "grunt-mocha-test": "^0",
         "js-beautify": "1.7.5",
-        "jsdom": "^11",
+        "jsdom": "^16",
         "karma": "^1",
         "karma-chai": "^0",
         "karma-chrome-launcher": "^2",
